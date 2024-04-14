@@ -18,6 +18,8 @@
 }
 
 img {
-  width: 10vw;
+  width: 25vw;
   height: auto;
+  align-items: center;
+  margin: 0 auto;
 }
