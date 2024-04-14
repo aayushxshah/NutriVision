@@ -1,10 +1,9 @@
 /* eslint-disable react/prop-types */
 function Recipe({recipe, key, setSelectedRecipe}) {
     return(
-        <button key={key} onClick={() => setSelectedRecipe(recipe)}>
+        <button className="recipeOption" key={key} onClick={() => setSelectedRecipe(recipe)}>
             <h3>{recipe.name}</h3>
             <h4>{recipe.nutritionalValue}</h4>
-            <h4>{recipe.ingredients}</h4>
         </button>  
     )
 }

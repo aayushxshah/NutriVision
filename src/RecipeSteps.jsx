@@ -19,8 +19,8 @@ function Step({ step, openai }) {
 
     return(
         <>
-            <img className="result-image" src={result} alt="result" />
-            <h4>{step}</h4>
+            <img className="result-image" src={result} alt="loading..." />
+            <h4 className="step">{step}</h4>
         </>
         
     )
