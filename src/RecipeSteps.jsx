@@ -18,10 +18,10 @@ function Step({ step, openai }) {
     generateImage();
 
     return(
-        <>
+        <div className="stepDiv">
             <img className="result-image" src={result} alt="loading..." />
             <h4 className="step">{step}</h4>
-        </>
+        </div>
         
     )
 
@@ -40,9 +40,9 @@ export default function RecipeSteps({ selectedRecipe, openai }) {
     })
 
     return (
-        <>
+        <div className="stepsDiv">
             {steps}
-        </>
+        </div>
     )
 
 }
