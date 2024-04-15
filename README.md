@@ -4,19 +4,19 @@ NutriVision is a web application that aims to make cooking healthy food easy and
 
 ## Features
 
-- **Ingredient-Based Recipe Search**: Simply input the ingredients you have, and EasyCook will suggest delicious recipes that you can prepare using those ingredients.
+- **Ingredient-Based Recipe Search**: Simply input the ingredients you have, and NutriVision will suggest delicious recipes that you can prepare using those ingredients.
   
 - **Step-by-Step Visual Instructions**: Each recipe comes with detailed visual instructions for every step, making it easy for users to follow along and cook with confidence.
   
-- **AI-Powered Recipe Generation**: Leveraging the power of DALL-E and GPT-3 Turbo, EasyCook generates high-quality recipes tailored to your preferences and dietary needs.
+- **AI-Powered Recipe Generation**: Leveraging the power of DALL-E and GPT-3 Turbo, NutriVision generates high-quality recipes tailored to your preferences and dietary needs.
 
 ## Technologies Used
 
-- **DALL-E**: DALL-E is an AI model developed by OpenAI that generates images from textual descriptions. EasyCook utilizes DALL-E to provide visual representations of each recipe step.
+- **DALL-E**: DALL-E is an AI model developed by OpenAI that generates images from textual descriptions. NutriVision utilizes DALL-E to provide visual representations of each recipe step.
   
-- **GPT-3 Turbo**: GPT-3 Turbo is a powerful language model developed by OpenAI that generates human-like text. EasyCook harnesses the capabilities of GPT-3 Turbo to generate personalized recipe suggestions based on user input.
+- **GPT-3 Turbo**: GPT-3 Turbo is a powerful language model developed by OpenAI that generates human-like text. NutriVision harnesses the capabilities of GPT-3 Turbo to generate personalized recipe suggestions based on user input.
   
-- **React**: EasyCook is built using React, a popular JavaScript library for building user interfaces. React provides a smooth and interactive user experience, making it easy to navigate through recipes and instructions.
+- **React**: NutriVision is built using React, a popular JavaScript library for building user interfaces. React provides a smooth and interactive user experience, making it easy to navigate through recipes and instructions.
 
 ## Getting Started
 
