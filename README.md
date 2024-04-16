@@ -2,6 +2,11 @@
 
 NutriVision is a web application that aims to make cooking healthy food easy and fun! It offers a vast collection of recipes based on the ingredients you have on hand and provides step-by-step visual instructions for each recipe. Built with DALL-E, GPT-3 Turbo, and React, NutriVision revolutionizes the way you cook by combining cutting-edge AI technology with a seamless user experience.
 
+## Awards
+
+This project was submitted to OhloneHacks and won 3rd place in the Health and Wellness Track. 
+- [Presentation](https://docs.google.com/presentation/d/1s-7rfUW9mOhdSrrytgtc4ZfzLM8NpVwJA5GY8Fn54BE/edit?usp=sharing)
+
 ## Features
 
 - **Ingredient-Based Recipe Search**: Simply input the ingredients you have, and NutriVision will suggest delicious recipes that you can prepare using those ingredients.
@@ -32,9 +37,11 @@ To get started with NutriVision, follow these steps:
    yarn install
    ```
 
-3. Obtain API keys for DALL-E and GPT-3 Turbo from OpenAI and add them to your environment variables.
+3. Create a `.env` file and create variable `VITE_Open_AI_Key`.
 
-4. Start the development server:
+4. Obtain API keys for DALL-E and GPT-3 Turbo from OpenAI and set `VITE_Open_AI_Key` to the key in `.env`.
+
+5. Start the development server:
 
    ```bash
    npm start
@@ -42,7 +49,7 @@ To get started with NutriVision, follow these steps:
    yarn start
    ```
 
-5. Open your web browser and navigate to `http://localhost:3000` to access NutriVision.
+6. Open your web browser and navigate to `http://localhost:3000` to access NutriVision.
 
 ## Contributors
 
